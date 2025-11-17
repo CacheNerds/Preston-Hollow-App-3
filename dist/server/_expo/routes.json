@@ -1,0 +1,102 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./(tabs)/index.tsx",
+      "page": "/(tabs)/index",
+      "namedRegex": "^(?:/\\(tabs\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/more.tsx",
+      "page": "/(tabs)/more",
+      "namedRegex": "^(?:/\\(tabs\\))?/more(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/kids.tsx",
+      "page": "/(tabs)/kids",
+      "namedRegex": "^(?:/\\(tabs\\))?/kids(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/give.tsx",
+      "page": "/(tabs)/give",
+      "namedRegex": "^(?:/\\(tabs\\))?/give(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/bible.tsx",
+      "page": "/(tabs)/bible",
+      "namedRegex": "^(?:/\\(tabs\\))?/bible(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/worship.tsx",
+      "page": "/(tabs)/worship",
+      "namedRegex": "^(?:/\\(tabs\\))?/worship(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./weddings.tsx",
+      "page": "/weddings",
+      "namedRegex": "^/weddings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./settings.tsx",
+      "page": "/settings",
+      "namedRegex": "^/settings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./ministries.tsx",
+      "page": "/ministries",
+      "namedRegex": "^/ministries(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./cdc-programs.tsx",
+      "page": "/cdc-programs",
+      "namedRegex": "^/cdc\\-programs(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./cdc-overview.tsx",
+      "page": "/cdc-overview",
+      "namedRegex": "^/cdc\\-overview(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./prayer-request.tsx",
+      "page": "/prayer-request",
+      "namedRegex": "^/prayer\\-request(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./cdc-enrollment.tsx",
+      "page": "/cdc-enrollment",
+      "namedRegex": "^/cdc\\-enrollment(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ],
+  "redirects": [],
+  "rewrites": []
+}
